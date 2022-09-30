@@ -14,3 +14,6 @@ import threading
 class MainSpider(threading.Thread):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+
+    def run(self):
+        pass
